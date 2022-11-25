@@ -1,0 +1,129 @@
+﻿/*CSS Position Demo*/
+.parent
+{
+    background-color:blue;
+    padding:20px;
+    font-weight:bold;
+    margin:20px;
+    position:relative;
+    height:200vh;
+}
+.child-one {
+    background-color: mediumorchid;
+    padding: 20px;
+    font-weight: bold;
+    position:sticky;
+    /*position:fixed;
+     position: absolute;
+    /*top: 10px;*/
+    top: 0px;
+    /*right: 0;
+    position: relative;
+    left: 30px;
+   top: 10px;*/
+}
+.child-two {
+    background-color: greenyellow;
+    padding: 20px;
+    font-weight: bold;
+}
+.child-three {
+    background-color: deeppink;
+    padding: 20px;
+    font-weight: bold;
+}
+/*
+1. static: Default one.
+2. relative : Same as static. But lets you add top, right, bottom, left. Makes it move relative to it's normal position.
+3. absolute: Removes from the flow and positions absolute wrt to the parent. Parent has to be relative or absolute for top, right, bottom, left to work. Else it considers the main html element as the  parent .
+4. fixed : Fixed to a place. Doesn't consider about the parent. Always considers html element as the parent. Stays there when scrolled.
+5. sticky : Relative ( when normal) + fixed ( when scrolled). The values for top, right, bottom, left become active when scrolled*/
+
+
+/*CSS Unit Demo*/
+.parent-container1 {
+    margin: 10px;
+    border: 5px solid black;
+    width:135px;
+    font-size:30px;
+}
+.box {
+    margin: 10px;
+    border: 5px solid black;
+    width:120px;
+}
+
+.fifty-percent {
+    margin: 10px;
+    border:5px solid black;
+    background-color:yellow;
+    width:50%;
+}
+
+.hundred-pixel {
+    margin: 10px;
+    border: 5px solid black;
+    background-color: yellow;
+    width:100px;
+}
+.fifty-vw {
+    margin: 10px;
+    border: 5px solid black;
+    background-color: yellow;
+    width: 50vw;
+}
+.twenty-five-vh {
+    margin: 10px;
+    border: 5px solid black;
+    background-color: yellow;
+    height: 25vh;
+}
+.parent-container2 {
+    margin: 10px;
+    border: 5px solid black;
+    width: 135px;
+    font-size:30px;
+}
+.one-em {
+    font-size:1em;
+}
+.two-em {
+    font-size: 2em;
+}
+.one-rem {
+    font-size: 1rem;
+}
+.two-rem {
+    font-size: 2rem;
+}
+.two-hundred-percent {
+    font-size: 200%;
+}
+
+.icon-container {
+    font-size: 10px;
+    background-color:skyblue;
+    margin:20px;
+}
+.icon-container-large {
+    font-size: 30px;
+    background-color: skyblue;
+    margin: 20px;
+}
+.em-icon {
+    width: 1em;
+    height: 1em;
+    background-color: green;
+    margin: 20px;
+}
+.rem-icon {
+    width: 1rem;
+    height: 1rem;
+    background-color: green;
+    margin: 20px;
+}
+.icon-text {
+    font-size: 10px;
+    margin: 20px;
+}
+
